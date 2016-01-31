@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					AA00B6F61C5E6A180044B1FF = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9D35K98X7P;
 					};
 					AA00B70A1C5E6A180044B1FF = {
 						CreatedOnToolsVersion = 7.2;
@@ -397,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = myCalculatorCloneFromLynda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = localhost.lu.myCalculatorCloneFromLynda;
@@ -408,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = myCalculatorCloneFromLynda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = localhost.lu.myCalculatorCloneFromLynda;

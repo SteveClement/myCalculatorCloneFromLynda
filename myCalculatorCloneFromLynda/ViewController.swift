@@ -8,7 +8,30 @@
 
 import UIKit
 
+enum modes {
+  case NOT_SET
+  case ADDITION
+  case SUBTRACTION
+}
+
 class ViewController: UIViewController {
+  
+  var labelString:String = "0"
+  var currentMode:modes = modes.NOT_SET
+  var savedNum:Int = 0
+  var lastButtonWasMode:Bool = false
+  
+  func tappedNumber(num:Int) {
+    
+  }
+  
+  func updateText() {
+    
+  }
+  
+  func changeMode(newMode:modes) {
+    
+  }
 
   override func viewDidLoad() {
     super.viewDidLoad()
