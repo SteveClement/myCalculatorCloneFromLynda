@@ -46,11 +46,12 @@ class ViewController: UIViewController {
   
   
   func tappedNumber(num:Int) {
-    
+    labelString = labelString.stringByAppendingString("\(num)")
+    updateText()
   }
   
   func updateText() {
-    
+    label.text = labelString
   }
   
   func changeMode(newMode:modes) {
